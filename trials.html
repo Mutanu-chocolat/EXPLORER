@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>HTML5 Canvas</h1>
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+
+
+     <script>
+        const myCanvas = document.getElementById("myCanvas");
+        const ctx = myCanvas.getContext("2d");
+        ctx.fillStyle = "purple";
+        ctx.fillRect(20, 20, 150, 100);
+        
+    </script>
+
+
+</body>
+</html>
+
+<!--
+The fillRect() method draws a black rectangle with a top-left corner at position 20,20. The rectangle is 150 pixel wide and 100 pixels high.
+The fillStyle property sets the fill color of the drawing object
+
+-->
+
+
+
+<!--You can also create a new <canvas> element with the document.createElement() method, and add the element to an existing HTML page:
+
+    Example
+    const myCanvas = document.createElement("canvas");
+    document.body.appendChild(myCanvas);
+    const ctx = myCanvas.getContext("2d");
+    
+    ctx.fillStyle = "red";
+    ctx.fillRect(20, 20, 150, 100);-->

@@ -48,9 +48,7 @@ insert values into them
 CREATE DATABASE hospital
 // hospital
 click sql
-CREATE TABLE patients(id INT PRIMARY KEY AUTO_INCREAMENT, first_name VARCHAR(255), last_name VARCHAR(255),email VARCHAR(150),phone_number INT, age INT);
-INSERT INTO patients( first_name,last_name,email,phone_number,age)
-VAUES('Hope','joe','hopejoe@mail.com',113425678,35)
+c
 
 
 ;
@@ -62,3 +60,8 @@ to insert use the keywords INSERT INTO
 to read use the keyword SELECT
 SELECT 
 */
+
+
+
+
+
